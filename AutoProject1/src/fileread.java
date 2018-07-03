@@ -9,7 +9,7 @@ public class fileread {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		// editing fileread file 
-		
+		// adding new enhancements
 		
 		    BufferedReader br = new BufferedReader(new FileReader("C:/AllData/id_rsa.pub"));
 		    StringBuilder sb = new StringBuilder();
@@ -22,6 +22,7 @@ public class fileread {
 		            sb.append("\n");
 		            line = br.readLine();
 		            System.out.println("...line...."+line);
+		            System.out.println("...new line merge...."+line);
 		        
 		      
 		    }
