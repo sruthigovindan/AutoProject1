@@ -8,6 +8,7 @@ public class fileread {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		// editing fileread file 
 		
 		
 		    BufferedReader br = new BufferedReader(new FileReader("C:/AllData/id_rsa.pub"));
@@ -28,7 +29,6 @@ public class fileread {
 		        br.close();
 		        
 		}
-
 	}
 
 
